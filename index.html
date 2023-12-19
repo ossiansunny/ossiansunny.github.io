@@ -1,90 +1,158 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<html><head>
+<link rel="stylesheet" href="kanshi.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
-</body>
-</html>
+<table><tr><td width="80"></td><td><img src="php.jpg" width="50" height="40"></td>
+<td><h1 class="padtop">&nbsp;&nbsp; PHP版監視アプリ</h1></td></tr></table>
+<h3>作成のきっかけ</h3>
+<p>ＩＴ初心者に対して、システム監視業務が「どのようなもの」で<br>
+「どのようなこと」をするのか実習させるために少しずつ作成して<br>
+来ましたので、公開することにしました
+
+<h3>アプリの中身について</h3>
+<p>アプリを動作させることが目的であり、プログラムは思いつくまま<br>
+コーディングして来たことから統一性がなく、キレイとは言い難い<br>
+ため出来上がりの動作を楽しんでいただければ幸いです<br>
+又、基本的なテストだけの実施のみのため、バグが存在することが<br>
+ありますが、ＰＨＰとＨＴＭＬがベースになっておりますので、<br>
+ご自身で修正して下さい
+
+<h3>アプリの気になるところ</h3>
+<ul>
+<li>主なテストが自宅内ＬＡＮ上のサーバーで実施しておりインターネット上の<br>
+サーバーからのレスポンス遅延の影響が大きく、特にポート、プロセスの<br>
+監視の遅延が目立ち、Ping監視以外、使い物にならない場合も考えられます</li>
+<li>Xamppをベースに、色々なパッケージで構成されています<br>
+バージョンの違いでエラーになる場合もありますので<br>
+とりあえず、指定のパッケージ、バージョンで試して下さい</li>
+</ul>
+<h3>アプリの特徴</h3>
+<ul>
+<li>監視対象がビジュアルに視えます</li>
+<li>監視対象の配置をカスタマイズ出来ます</li>
+<li>管理者は１つのみログイン、一般操作者は複数ログイン出来ます
+<li>他サイトの監視アプリへもヘッダーのURLからログイン出来ます
+<li>PHPプログラムのため修正、追加が簡単に出来ます</li>
+</ul>
+<h3>カスタマイズ例</h3>
+<div>
+カスタマイズされた画面例です
+</div>
+<img src="visualmonitor.png" width="500" height="500">
+<h3>画面レイアウト</h3>
+<div>
+ログインするユーザにより画面色、メニュー項目が異なります
+</div>
+<table><tr><th>管理者用レイアウト</th><th>一般操作者用レイアウト</th></tr>
+<tr><td><img src="adminlayout.png" width="250" height="250"></td>
+<td><img src="operatorlayout.png" width="250" height="250"></td></tr></table>
+
+<h3>アプリ起動フロー</h3>
+ログインから監視アプリ全体を起動されるフローを示します
+<div>
+<img src="runsequence.png" width="500" height="250">
+</div>
+<h3>自動起動の工夫</h3>
+<p>ｐｈｐコーディング  5秒間隔でリフレッシュ　サンプル
+<div class=code style="width: 500px;">
+echo '&lt;html&gt;&lt;head&gt;';<br>
+echo '&lt;meta http-equiv="Refresh" content= "5"&gt;';<br>
+echo '&lt;/head&gt;&lt;body&gt;';<br>
+$sec=date("s秒");<br>
+echo "&lt;h1&gt;{$sec}&lt;/h1&gt;";<br>
+echo '&lt;/body&gt;&lt;/html&gt;';<br>
+?&gt;
+</div>
+<h3>セッションキー利用</h3>
+<p>各画面遷移にユーザIDを受け渡しさせるため、セッションキーを利用
+<p>ユーザ登録　サンプル
+<div class=code style="width: 500px;">
+function setsess($value){<br>
+&nbsp;&nbsp;echo '&lt;script type="text/javascript"&gt;';<br>
+&nbsp;&nbsp;echo 'sessionStorage.setItem("user","'.$value.'");';<br>
+&nbsp;&nbsp;echo '&lt;/script&gt;';<br>
+}<br>
+...<br>
+$user='hoge';
+setsess($user);<br>
+
+</div>
+<p>登録済のセッションキーuserで値を取得し自プログラムへ戻す<br>
+ユーザ得られなければ、unknowを戻す
+<p>ユーザ取得　サンプル
+<div class=code style="width: 500px;">
+function paramGet($_pgm){<br>
+&nbsp;&nbsp;echo '&lt;html&gt;';<br>
+&nbsp;&nbsp;echo '&lt;body onLoad="document.F.submit();"&gt;';<br>
+&nbsp;&nbsp;echo "&lt;form name='F' action={$_pgm} method='get'&gt;";<br>
+&nbsp;&nbsp;echo '&lt;input type="hidden" name="param" value=""&gt;';<br>
+&nbsp;&nbsp;echo '&lt;input type="submit" name="next" style="display:none;" /&gt;';<br>
+&nbsp;&nbsp;echo '&lt;/form&gt;&lt;/body&gt;&lt;/html&gt;';<br>
+&nbsp;&nbsp;echo '&lt;script type="text/javascript"&gt;';<br>
+&nbsp;&nbsp;echo 'var keyvalue = sessionStorage.getItem("user");';<br>
+&nbsp;&nbsp;echo 'if (!keyvalue) {';<br>
+&nbsp;&nbsp;echo '  keyvalue = "unknown";';<br>
+&nbsp;&nbsp;echo '}';<br>
+&nbsp;&nbsp;echo 'document.forms["F"].elements["param"].value = keyvalue;';<br>
+&nbsp;&nbsp;echo '&lt;/script&gt;';<br>
+}<br>
+...<br>
+paramGet('program名');<br>
+...<br>
+$user=$_GET[‘param’];
+</div>
+<h3>処理結果を戻す工夫</h3>
+<p>処理結果を自プログラムへ通知し、プログラムの上位に表示する　サンプル
+<div class=code style="width: 500px;">
+&lt;?php
+function branch($_page,$_param)<br>
+&nbsp;&nbsp;echo '&lt;html&gt;';<br>
+&nbsp;&nbsp;echo '&lt;body onLoad="document.F.submit();"&gt;';<br>
+&nbsp;&nbsp;echo "&lt;form name='F' action={$_page} method='get'&gt;";<br>
+&nbsp;&nbsp;echo "&lt;input type=hidden name=param value={$_param}&gt;";<br>
+&nbsp;&nbsp;echo '&lt;input type="submit" name="next" value="Waiting..."&gt;';<br>
+&nbsp;&nbsp;echo '&lt;/form&gt;';<br>
+&nbsp;&nbsp;exit();<br>
+}<br>
+$pgm="プログラム名";<br>
+if (isset($_GET['message'])){<br>
+&nbsp;&nbsp;echo $_GET['message'];<br>
+&nbsp;&nbsp;if ($_GET['message']=='error'){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;branch($pgm,'異常発生');<br>
+&nbsp;&nbsp;}elseif($_GET['message']=='normal'){<br>
+&nbsp;&nbsp;&nbsp;&nbsp;branch($pgm,'正常終了');<br>
+&nbsp;&nbsp;}<br>
+}<br>
+echo '&lt;html&gt;&lt;body&gt;';<br> 
+if (isset($_GET['param'])){<br>  
+&nbsp;&nbsp;echo "&lt;h3&gt;{$_GET['param']}&lt;/h3&gt;&lt;hr&gt;";<br>
+}<br>
+echo '&lt;h2&gt;タイトル&lt;/h2&gt;';<br>
+echo 'normalまたはerrorを入力し実行する';<br>
+echo '&lt;form action="TestMsgTop.php" method="get"&gt;';<br>
+echo '&lt;input type="text" name="message" value=""&gt;';<br>
+echo '&lt;input type="hidden" name="param" value="入力なし"&gt;';<br>
+echo '&lt;input type="submit" name="end" value="実行" &gt;';<br>
+echo '&lt;/body&gt;&lt;/html&gt;';<br>
+?&gt;<br>
+</div>
+<p>動作確認図
+<table><tr>
+<td><img src="returnmsg1.png" width="170" height="170"></td>
+<td><img src="returnmsg2.png" width="170" height="170"></td>
+<td><img src="returnmsg3.png" width="170" height="170"></td>
+</tr></table>
+<h3>ソースの場所、その他</h3>
+<p>ソースの場所は<a href="https://github.com/ossiansunny/visualmonitor">こちら</a>です<br>
+なお、不具合対応、インストール方法など、お手伝い出来ませんので悪しからず<br>
+<br>
+-------------------------------------------------------------------------------------
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2023年12月    <img src="ossiansunny.png" width="40" height="40">OssianSunny	
+</body></html>
