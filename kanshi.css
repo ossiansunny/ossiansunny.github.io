@@ -1,1 +1,15 @@
-
+body { font-family: "メイリオ", meiryo, sans-serif; 
+        background: linear-gradient(45deg, #FFCCFF, #14EFFF);
+	font-size: small; font-weight: bold; color: darkslategray;}
+h1 { font-weight: bold; color: #3366ff; }
+h2 { font-weight: bold; color: gray; }
+h3 { font-weight: bold; color: white; background-color: #006DD9; width: 50%;}
+h4 { font-size: small; color: #006DD9; }
+.wihi { width: 120; }
+th { font-size: 10px; color: #006DD9; border-radius: 10%;
+        background-color: #f4a460; }
+td { font-size: 10px; color: black; border-radius: 12%;}
+.padtop { padding-top:1em;}        
+div.code { font-size: 14px; color: white;
+        background-color: black; }
+}
