@@ -21,25 +21,25 @@ IT初心者に対して、システム監視業務が「どのようなもの」
 *  PHP、HTMLベースのため容易に追加、修正が出来ます
 
 ### カスタマイズ例
-![監視レイアウト例](http://192.168.1.155/kanshiphp/koukaiimg/visualmonitor.png/150)
+![監視レイアウト例](visualmonitor.png)
 
 ### 画面レイアウト
 *  管理者用
 
-![管理者用画面レイアウト](http://192.168.1.155/kanshiphp/koukaiimg/adminlayout.png/150)
+![管理者用画面レイアウト](adminlayout.png)
 *  一般操作者用レイアウト
   
-![一般操作者用画面レイアウト](http://192.168.1.155/kanshiphp/koukaiimg/operatorlayout.png/150)
+![一般操作者用画面レイアウト](operatorlayout.png)
 
 ### アプリ構成
 
-![アプリ構成](http://192.168.1.155/kanshiphp/koukaiimg/kanshimap.png/150)
+![アプリ構成](kanshimap.png)
 
 ### アプリ起動フロー
 
 ログインから監視アプリ全体を起動するフローを示します
 
-![管理者用画面レイアウト](http://192.168.1.155/kanshiphp/koukaiimg/runsequence.png/150)
+![管理者用画面レイアウト](runsequence.png)
 
 ### 自動起動の工夫
 
@@ -130,11 +130,11 @@ echo '</body></html>';
 ```
 *  サンプル動作確認図
     
-![動作確認１](http://ossiansunny.github.io/returnmsg1.png)/150
+![動作確認１](http://ossiansunny.github.io/returnmsg1.png)
 
-![動作確認２](returnmsg2.png)/150
+![動作確認２](returnmsg2.png)
 
-![動作確認３](http://github.com/ossiansunny/ossiansunny/github.io/returnmsg3.png)/150
+![動作確認３](returnmsg3.png)
 
 ### ソースの場所、その他
 *  ソースの場所は<a href="https://github.com/ossiansunny/visualmonitor">こちら</a>です<br>
