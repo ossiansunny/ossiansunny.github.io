@@ -130,11 +130,11 @@ echo '</body></html>';
 ```
 *  サンプル動作確認図
     
-![動作確認１](http://ossiansunny.github.io/returnmsg1.png/150)
+![動作確認１](http://ossiansunny.github.io/returnmsg1.png)/150
 
-![動作確認２](returnmsg2.png/150)
+![動作確認２](returnmsg2.png)/150
 
-![動作確認３](http://github.com/ossiansunny/ossiansunny/github.io/returnmsg3.png/150)
+![動作確認３](http://github.com/ossiansunny/ossiansunny/github.io/returnmsg3.png)/150
 
 ### ソースの場所、その他
 *  ソースの場所は<a href="https://github.com/ossiansunny/visualmonitor">こちら</a>です<br>
